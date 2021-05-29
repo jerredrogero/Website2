@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "95ed789ed36a71bdab8324f2b35a3042b2418d0edafb0f7b732c12334c51b24c"
+            "sha256": "a80b4088512ced1b18f35861d68f16a4eafa87cb7b6e6a2b20b241c9733f44d4"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -48,8 +48,12 @@
             "version": "==0.3.1"
         },
         "gunicorn": {
-            "git": "https://github.com/benoitc/gunicorn.git",
-            "ref": "cf55d2cec277f220ebd605989ce78ad1bb553c46"
+            "hashes": [
+                "sha256:9dcc4547dbb1cb284accfb15ab5667a0e5d1881cc443e0677b4882a4067a807e",
+                "sha256:e0a968b5ba15f8a328fdfd7ab1fcb5af4470c28aaf7e55df02a99bc13138e6e8"
+            ],
+            "index": "pypi",
+            "version": "==20.1.0"
         },
         "psycopg2": {
             "hashes": [
@@ -185,7 +189,7 @@
                 "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b",
                 "sha256:b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f"
             ],
-            "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2'",
             "version": "==0.10.2"
         }
     }
