@@ -8,6 +8,7 @@ django = "*"
 gunicorn = "*"
 whitenoise = "*"
 django-heroku = "*"
+django-bootstrap4 = "*"
 
 [requires]
 python_version = "3.9"
