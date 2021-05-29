@@ -1,0 +1,17 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "package.json",
+  "main": "/Users/jerred",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Jerred",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-icons": "^1.5.0"
+  }
+}

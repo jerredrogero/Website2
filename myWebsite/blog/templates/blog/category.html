@@ -1,0 +1,22 @@
+{% extends "blog/base.html" %} {% block content %} {% if category_posts %}
+<div class="category">
+  <h1>{{ cats }}</h1>
+  <h4>All my posts in this category:</h4>
+  <hr />
+  <body>
+    {% for post in category_posts %}
+
+    <div>
+      <h2 class="subtitle">{{ post.title }}</h2>
+      <small> Posted on {{ post.date_added }}</small>
+      <p>{{ post.intro }}</p>
+
+      <hr />
+    </div>
+
+    {% endfor %}
+  </body>
+  {% else %}
+  <h2>Category does not exist</h2>
+  {% endif %} {% endblock content %}
+</div>

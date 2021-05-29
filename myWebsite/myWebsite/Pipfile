@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+gunicorn = {git = "https://github.com/benoitc/gunicorn.git"}
+whitenoise = "*"
+django-heroku = "*"
+
+[requires]
+python_version = "3.9"
+
+[dev-packages]
+black = "*"
+
+[pipenv]
+allow_prereleases = true
