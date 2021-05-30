@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "myWebsite.blog",
+    "blog",
 ]
 
 MIDDLEWARE = [
@@ -76,7 +76,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "wsgi.application"
+# WSGI_APPLICATION = "wsgi.application"
 
 
 # Database
