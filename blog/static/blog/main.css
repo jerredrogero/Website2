@@ -9,9 +9,6 @@
     position: absolute;
     bottom: 5px;
   }
-  .dropdown-menu > .dropdown-item {
-    color: rgba(255, 255, 255, 0.55);
-  }
 }
 
 h1,
@@ -92,5 +89,53 @@ body {
 .blog-title {
   text-align: center;
   font-family: "Nunito Sans", sans-serif;
+}
+
+.wrapper {
+  /*This part is important for centering*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home-welcome {
+  width: 10ch;
+  -webkit-animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+          animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2em;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 /*# sourceMappingURL=main.css.map */
