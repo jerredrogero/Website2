@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,MAAM,EAAE,SAAS,EAAE,KAAK;EACtB,AAAA,aAAa,CAAC;IACZ,OAAO,EAAE,IAAI;IACb,eAAe,EAAE,YAAY;IAC7B,QAAQ,EAAE,QAAQ;IAClB,MAAM,EAAE,GAAG;GACZ",
     "sources": [
         "mobile.scss"
     ],
